@@ -1,0 +1,5 @@
+venv/
+logs/
+machine_efficiency_prediction.egg-info/
+__pycache__/
+*.pyc
