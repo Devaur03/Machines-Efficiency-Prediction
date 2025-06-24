@@ -18,19 +18,19 @@ All project screenshots are organized in the `GitOps-Project-Screenshots/` direc
 
 | Component | Screenshot | Description |
 |-----------|------------|-------------|
-| **Jenkins Pipeline start** | ![Jenkins Pipeline](static\j1.png)| Complete CI/CD pipeline with initial stage |
-| **Jenkins Pipeline finish** | ![GitHub](static\j9.png) | Complete CI/CD pipeline with last stage |
-| **DockerHub Repository** | ![DockerHub](static\d_hub.png) | Docker images with tags and push timestamps |
-| **GCP VM Instance** | ![GCP VM](static\vm_instance.png) | Running VM with external IP and open ports |
-| **ArgoCD Application** | ![ArgoCD App](static\argo_cd.png) | Healthy and synced GitOps application |
-| **Running Application** | ![App Browser](static\ap.png) | Live application accessible via browser |
-| **Terminal Commands** | ![Terminal](static\t1.png) | Kubernetes and Docker commands execution |
-| **Docker Containers** | ![Terminal](static\t2.png) | Kubernetes and Docker commands execution |
+| **Jenkins Pipeline start** | ![Jenkins Pipeline](static/j1.png)| Complete CI/CD pipeline with initial stage |
+| **Jenkins Pipeline finish** | ![GitHub](static/j9.png) | Complete CI/CD pipeline with last stage |
+| **DockerHub Repository** | ![DockerHub](static/d_hub.png) | Docker images with tags and push timestamps |
+| **GCP VM Instance** | ![GCP VM](static/vm_instance.png) | Running VM with external IP and open ports |
+| **ArgoCD Application** | ![ArgoCD App](static/argo_cd.png) | Healthy and synced GitOps application |
+| **Running Application** | ![App Browser](static/ap.png) | Live application accessible via browser |
+| **Terminal Commands** | ![Terminal](static/t1.png) | Kubernetes and Docker commands execution |
+| **Docker Containers** | ![Terminal](static/t2.png) | Kubernetes and Docker commands execution |
 
 ### 🎥 Video Demonstration
 Watch the complete project walkthrough and demonstration (CLICK ON THE IMAGE):
 
-[![Machine Efficiency Prediction - DevOps Pipeline Demo](static\ap.png)](https://youtu.be/U7jJznH_eSs)
+[![Machine Efficiency Prediction - DevOps Pipeline Demo](static/ap.png)](https://youtu.be/U7jJznH_eSs)
 
 ## 🏗️ Architecture
 
