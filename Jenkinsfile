@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment{
         DOCKER_HUB_REPO ="devaur003/gitops-project"
-        DOCKER_GUB_CREDENTIALS_ID = "gitops-dockerhub-token"
+        DOCKER_HUB_CREDENTIALS_ID = "gitops-dockerhub-token"
     }
     stages {
         stage('Checkout Github') {
@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building Docker image...'
-                    dockerImage = docker.build("${DOCKER_HUB_REPO}:latest")
+                    def dockerImage = docker.build("${DOCKER_HUB_REPO}:latest")
                 }
             }
         }
